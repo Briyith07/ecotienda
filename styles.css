@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima del viewport */
+}
+
+/* Fondo solo en la página de inicio */
+.inicio {
+    background-image: url('tienda.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Estilos del header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos del contenido principal */
+.inicio-texto {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.inicio-texto h2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.inicio-texto p {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Footer siempre abajo */
+footer {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
